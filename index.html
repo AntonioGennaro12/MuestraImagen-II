@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="disenio.css">
+<body>
+    <div>
+    <p style="color: darkgreen; font-size: larger; font-weight: bolder; text-align: center; width: 480px;">  CFP5 - BIEVENIDO!!! </p>
+    <fieldset>
+        <legend id="sel-leg">Elija una opción...</legend>
+        <select id="sel-opc" onchange="eligeOpcion()" name="Elige Opción">
+        <option value=""  >-</option>
+        <option value="A" >A</option>
+        <option value="B" >B</option>
+        <option value="C" >C</option>
+        </select>
+    </fieldset> 
+    <fieldset id="mi-fldset">
+        <!--Aquí generamos código desde JS-->
+    </fieldset>
+    </div>
+    <script src="manejo.js"></script>
+</body>
+</html>
